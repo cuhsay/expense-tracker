@@ -20,7 +20,6 @@ class ExpenseTracker:
         print(f"Allowance added! Current Allowance: ₱{self.user.current_allowance:,.2f}")
 
 
-
     def add_expense(self):
         while True:
             try:
